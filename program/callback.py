@@ -17,7 +17,7 @@ from config import (
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✨ **مرحبا عزيزي [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) اهلا بيك سورس GHOST  يتيح لك تشغيل الموسيقى والفيديو في مجموعات من خلال المكالمات في الجروبات الجديده في  TELEGRAM**
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) اهلا بيك سورس 𝑫ₐᵣ𝑾ᵢₙ  يتيح لك تشغيل الموسيقى والفيديو في مجموعات من خلال المكالمات في الجروبات الجديده في  TELEGRAM**
 
 💡 **اكتشف جميع أوامر الروبوت وكيفية عملها من خلال النقر فوق » 📚 زر الاوامر!**
 
@@ -37,15 +37,15 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        " المطور فوديكا يبني", url=f"https://t.me/vod_ik_ax"
+                        " المطور جوست", url=f"https://t.me/UU_O_M_AR"
                     ),
                     InlineKeyboardButton(
-                        " قناة السورس", url=f"https://t.me/GH_OS_T_M1"
+                        " قناة السورس", url=f"https://t.me/D_A_R_O_I_N_1"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        " مطور السورس", url="https://t.me/UU_O_M_AR"
+                        "𝑫ₐᵣ𝑾ᵢₙ", url="https://t.me/D_R_W_I"
                     )
                 ],
             ]
@@ -82,7 +82,7 @@ async def cbcmds(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✨ **Hello [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
 
-» **اضغط على الازرار التاليه لمعرفه الاوامر     SOURCE GHOST !**
+» **اضغط على الازرار التاليه لمعرفه الاوامر     SOURCE 𝑫ₐᵣ𝑾ᵢₙ !**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
@@ -117,7 +117,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /uptime - يظهر لك حاله التشغيل
 » /alive - يعرض لك معلومات البوت (في المجموعه)
 
-   SOURCE GHOST
+   SOURCE 𝑫ₐᵣ𝑾ᵢₙ
 
 ⚡️ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
