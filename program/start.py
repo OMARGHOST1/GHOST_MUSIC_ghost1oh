@@ -105,7 +105,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ البشمبرمج داروين", url=f"https://t.me/D_R_W_I"),
                 InlineKeyboardButton(
-                    "📣 قناة السورس", url=f"https://t.me/GH_OS_T_M1"
+                    "📣 قناة السورس", url=f"https://t.me/D_A_R_O_I_N_1"
                 ),
             ]
         ]
@@ -153,7 +153,7 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/GH_OS_T_M1"),
+                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/D_A_R_O_I_N_1"),
                             InlineKeyboardButton("💭 البشمبرمج داروين", url=f"https://t.me/D_R_W_I")
                         ],
                         [
